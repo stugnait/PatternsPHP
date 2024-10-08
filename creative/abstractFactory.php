@@ -67,6 +67,7 @@ $classicFactory = new ClassicClothingFactory();
 
 $sportTShirt = $sportFactory->createTShirt();
 $sportSweater = $sportFactory->createSweater();
+
 $sportTShirt->buy();
 $sportSweater->buy();
 
